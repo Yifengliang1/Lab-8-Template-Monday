@@ -94,9 +94,9 @@ class CityListTest {
         assertEquals(1, cityList.countCities());
         City city = new City("ChangSha", "HuNan");
         cityList.add(city);
-        assertEquals(1, cityList.countCities());
+        assertEquals(2, cityList.countCities());
         City city1 = new City("GuangZhou", "GuangDong");
         cityList.add(city1);
-        assertEquals(2, cityList.countCities());
+        assertEquals(3, cityList.countCities());
     }
 }
